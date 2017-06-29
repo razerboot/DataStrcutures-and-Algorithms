@@ -13,9 +13,7 @@ def find_maximum_coin_set(C, tree, root, n):
     while len(q) > 0:
         u = q[-1]
         if vi[u] == 0:
-            for v in tree[u]:
-                if vi[v] == 0:
-                    q.append(v)
+            q.extend([v for v in tree[u] if vi[v] == 0])
             vi[u] = 1
         elif vi[u] == 1:
             q.pop()
