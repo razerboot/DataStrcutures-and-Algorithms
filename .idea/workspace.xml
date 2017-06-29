@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="204ec785-e3c9-47ec-aa38-e6887bb62c83" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/problems/tester.py" afterPath="$PROJECT_DIR$/problems/tester.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,11 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dp_counting_sub_trees_k.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dp_counting_sub_trees_k.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problems/dp_counting_sub_trees_k.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dp_min_subtree_k_leaves.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problems/dp_min_subtree_k_leaves.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -75,13 +84,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>k</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bst_ancestor.py" />
         <option value="$PROJECT_DIR$/btree_diameter_thread.py" />
         <option value="$PROJECT_DIR$/graph_revision.py" />
         <option value="$PROJECT_DIR$/khans_topological.py" />
@@ -132,6 +145,7 @@
         <option value="$PROJECT_DIR$/problems/dp_counting_sub_trees.py" />
         <option value="$PROJECT_DIR$/problems/tester.py" />
         <option value="$PROJECT_DIR$/problems/dp_counting_sub_trees_k.py" />
+        <option value="$PROJECT_DIR$/problems/dp_min_subtree_k_leaves.py" />
       </list>
     </option>
   </component>
@@ -145,7 +159,9 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -225,26 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dp_counting_sub_trees_k">
-    <configuration default="false" name="kickstart_beautiful_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Practice" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kickstart_beautiful_numbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.dp_min_subtree_k_leaves">
     <configuration default="false" name="dp_tree_basic_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,6 +313,25 @@
       <module name="Practice" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/dp_counting_sub_trees_k.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dp_min_subtree_k_leaves" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practice" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problems/dp_min_subtree_k_leaves.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -424,19 +440,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.kickstart_beautiful_numbers" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dp_tree_basic_1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dp_counting_sub_trees" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tester" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dp_counting_sub_trees_k" />
+      <item index="0" class="java.lang.String" itemvalue="Python.dp_tree_basic_1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.dp_counting_sub_trees" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tester" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dp_counting_sub_trees_k" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dp_min_subtree_k_leaves" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.dp_counting_sub_trees_k" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tester" />
-        <item index="2" class="java.lang.String" itemvalue="Python.dp_counting_sub_trees" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dp_tree_basic_1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.kickstart_beautiful_numbers" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dp_min_subtree_k_leaves" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dp_counting_sub_trees_k" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tester" />
+        <item index="3" class="java.lang.String" itemvalue="Python.dp_counting_sub_trees" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dp_tree_basic_1" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -549,13 +565,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/selection_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/he_richie_rich.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -904,8 +913,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problems/dp_counting_sub_trees_k.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problems/dp_min_subtree_k_leaves.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
           <folding />
         </state>
       </provider>
