@@ -18,11 +18,13 @@ arr = map(int, raw_input().split())
 #  sizes which can potential candidate for LIS)
 
 aux_arr = [0] * n
+P = {}
 l = 0
 for i in xrange(n):
     #case 1 - no element in aux array
     if l == 0:
         aux_arr[0] = arr[0]
+        P[arr[i]] = arr[i]
         l += 1
     else:
         p = floor(aux_arr, arr[i], -1, l)
@@ -32,16 +34,25 @@ for i in xrange(n):
         # than curr element if LIS is there from the first element then same LIS can be modified for curr element so it
         # is safe
         if p == -1:
+            P[arr[i]] = arr[i]
             aux_arr[0] = arr[i]
         # case 3
         # extend the aux array which simulates (we clone largest list and add curr element)
         elif p == l - 1:
+            P[arr[i]] = aux_arr[l - 1]
             l += 1
             aux_arr[l - 1] = arr[i]
         # case 2
         # clone list corresponding to floor value and add curr element and remove all lists of same size of new list
         # this can simulated by just replacing value in aux arr at p + 1 index
         else:
+            P[arr[i]] = aux_arr[p]
             aux_arr[p + 1] = arr[i]
 
 print l
+val = aux_arr[l - 1]
+lis = [val]
+while val != P[val]:
+    val = P[val]
+    lis.append(val)
+print lis[::-1]
