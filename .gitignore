@@ -1,3 +1,6 @@
 .idea/
 .idea
 problems/tester.py
+i-o/
+.DS_Store
+problems/.DS_Store
