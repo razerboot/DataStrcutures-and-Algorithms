@@ -1,19 +1,24 @@
 import sys
 sys.setrecursionlimit(10100)
+
+
 def grayCode(A):
     arr = []
     arr.append(0)
     get_code(0, arr, A, 1)
     return arr,len(arr)
 
+
 def check(num1, arr):
     if num1 not in arr:
         return True
     return False
 
+
 def flip(num, i,N):
     mask = 1 << N-i-1
     return (num ^ mask)
+
 
 def get_code(num, arr, N, c):
     if c == 2 ** N:
@@ -27,8 +32,6 @@ def get_code(num, arr, N, c):
                 return True
             arr.pop()
     return False
-
-
 
 
 def grayCode1(A):

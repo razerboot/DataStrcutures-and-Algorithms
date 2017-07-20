@@ -40,7 +40,7 @@ def lps(str):
                 if crs>m+i:
                     c_p = i
         else:
-            print "fk"
+            #print "fk"
             crs=i
             c_p = i
             while (crs + 1 <= size and 2*i-(crs+1)>=0 and str1[2 * i - (crs + 1)] == str1[crs + 1]):
@@ -62,4 +62,4 @@ def lps(str):
     print str
     print str2
 
-lps("aabaaabaaa")
+lps("cdabccc")

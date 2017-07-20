@@ -5,6 +5,7 @@ class time():
     def __init__(self,key):
         self.t=key
 
+
 def find_ap(graph,dist,low,vi,p,ap,u,c):
     child=0
     dist[u]=c.t

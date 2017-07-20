@@ -6,7 +6,6 @@ def print_sum(arr,k):
     #print arr2
 
 
-
 def find_subset(arr1,arr,p,k,N):
     #if k<0:
     #    return

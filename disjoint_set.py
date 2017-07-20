@@ -9,10 +9,10 @@ for ele in arr:
 
 
 #finding root by path compression
-def root(arr,v):
-	while(v!=arr[v]):
-		temp=arr[arr[v]]
-		v=temp
+def root(arr, v):
+	while v != arr[v]:
+		arr[v] = arr[arr[v]]
+		v = arr[v]
 	return v
 
 

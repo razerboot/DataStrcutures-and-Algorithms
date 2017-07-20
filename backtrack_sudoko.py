@@ -12,7 +12,7 @@ def solve_sudoko():
     y=0
     c = count_zeroes(grid)
     print solve(grid,x,y,c)
-    print grid
+
 
 def count_zeroes(grid):
     count=0
@@ -22,17 +22,19 @@ def count_zeroes(grid):
                 count+=1
     return count
 
+
 def get_next(grid):
     for i in range(9):
         for j in range(9):
             if grid[i][j]==0:
                 return i,j
 
+
 def check(grid,x,y,num):
     a1 = x-x%3
     b1 = y-y%3
-    a = a1,a1+1
-    b = b1,b1+1
+    a = a1,a1+3
+    b = b1,b1+3
     # checking in row
     for j in range(9):
         if grid[x][j]==num:
@@ -47,6 +49,7 @@ def check(grid,x,y,num):
             if grid[i][j]==num:
                 return False
     return True
+
 
 def solve(grid,x,y,c):
     if c==0:
