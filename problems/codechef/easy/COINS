@@ -1,0 +1,21 @@
+# problem - https://www.codechef.com/problems/COINS
+
+
+def maximize(n, res):
+    if n in res:
+        return res[n]
+    if (n / 2 + n / 3 + n / 4) > n:
+        opt_n = maximize(n / 2, res) + maximize(n / 3, res) + maximize(n / 4, res)
+    else:
+        opt_n = n
+    res[n] = opt_n
+    return opt_n
+
+
+# reading input
+while True:
+    try:
+        n = int(raw_input())
+        print maximize(n, {})
+    except EOFError:
+        break  # end of the input
